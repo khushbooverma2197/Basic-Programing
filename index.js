@@ -10,6 +10,10 @@ function isPrime(num) {
    }
    return true;
 }
+
+function evenOdd(num) {
+   return num % 2 === 0;
+}
 // Example usage:
 //console.log(isPrime(5));     // true
 //console.log(isPrime(10));    // false
